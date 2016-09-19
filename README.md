@@ -12,7 +12,7 @@ The project is being developped inside the RI2C team of the [LITIS computer scie
 
 ## How to build and run Fenix ?
 
-Fenix is run through [nodejs](https://nodejs.org/), so you have to get node and its packet manager, npm, on your machine. When building Fenix for the first time, you need to download all node packages needed by the app. You can do that running the install command of npm from the root directory of Fenix :
+Fenix is run through [nodejs](https://nodejs.org/), so you have to get node and its packet manager, npm, on your machine. The build process also uses `sass`, a ruby module that compiles CSS. Thus you will also need to install `ruby` as well as the `sass` ruby gem. When building Fenix for the first time, you need to download all node packages needed by the app. You can do that running the install command of npm from the root directory of Fenix :
 
 ```
 npm install
